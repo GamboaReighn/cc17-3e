@@ -32,9 +32,10 @@ class MainActivity : AppCompatActivity() {
         bottom_navigation.setOnNavigationItemSelectedListener {
             when(it.itemId){
             R.id.ic_home -> replaceFragment(homeFragment)
-
             R.id.ic_transaction ->replaceFragment(transactionFragment)
                 R.id.ic_person -> replaceFragment(accountFragment)
+
+
             }
             true
         }
