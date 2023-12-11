@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9CCFEDD4"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="#0b74c8"
+        android:text="Start a Reservation"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textStyle="italic"
+        android:textColor="#0b74c8"
+        android:text="Package Offerings"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/types"
+        android:background="#955AA166"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textStyle="italic"
+        android:textColor="#0b74c8"
+        android:text="Select Travel Date"
+
+        />
+
+    <Button
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#0b74c8"
+        android:textAlignment="center"
+        android:backgroundTint="#955AA166"
+        style="?android:spinnerStyle"
+        android:onClick="openDatePicker"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textStyle="italic"
+        android:textColor="#0b74c8"
+        android:text="Add Pax"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinnerTypes"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/type"
+        android:background="#955AA166"
+        android:textAlignment="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textStyle="italic"
+        android:textColor="#0b74c8"
+        android:text="Pick-Up Location"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#955AA166"
+        android:text="Decibar Building,Lower Bonifacio, Baguio City"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="20dp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textStyle="italic"
+        android:textColor="#0b74c8"
+        android:text="Time"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#0b74c8"
+        android:textAlignment="center"
+        android:background="#955AA166"
+
+
+        />
+    <Button
+        android:id="@+id/Reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/primary_color"
+        android:text="RESERVE NOW" />
+
+</LinearLayout>

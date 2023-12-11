@@ -10,13 +10,97 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TeamYeyDayoTravelAccess"
+        android:theme="@style/Theme.DayoTravelAccess"
         tools:targetApi="31">
         <activity
-            android:name=".checkActivity"
+            android:name=".person"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".successbook"
+            android:exported="false" />
+        <activity
+            android:name=".paymentmethod"
+            android:exported="false" />
+        <activity
+            android:name=".paymentsj"
+            android:exported="false" />
+        <activity
+            android:name=".paymentmbaguio"
+            android:exported="false" />
+        <activity
+            android:name=".agootransaction"
+            android:exported="false" />
+        <activity
+            android:name=".manilatransaction"
+            android:exported="false" />
+        <activity
+            android:name=".sablantransaction"
+            android:exported="false" />
+        <activity
+            android:name=".sagadatransaction"
+            android:exported="false" />
+        <activity
+            android:name=".bolinaotransaction"
+            android:exported="false" />
+        <activity
+            android:name=".vigantransaction"
+            android:exported="false" />
+        <activity
+            android:name=".alaminostransaction"
+            android:exported="false" />
+        <activity
+            android:name=".sjtransaction"
+            android:exported="false" />
+        <activity
+            android:name=".baguiotransaction"
+            android:exported="false" />
+        <activity
+            android:name=".agoo"
+            android:exported="false" />
+        <activity
+            android:name=".manila"
+            android:exported="false" />
+        <activity
+            android:name=".sablan"
+            android:exported="false" />
+        <activity
+            android:name=".sagada"
+            android:exported="false" />
+        <activity
+            android:name=".bolinao"
+            android:exported="false" />
+        <activity
+            android:name=".alaminos"
+            android:exported="false" />
+        <activity
+            android:name=".sanjuan"
+            android:exported="false" />
+        <activity
+            android:name=".vigan"
+            android:exported="false" />
+        <activity
+            android:name=".package3"
+            android:exported="false" />
+        <activity
+            android:name=".history"
+            android:exported="false" />
+        <activity
+            android:name=".account"
+            android:exported="false" />
+        <activity
+            android:name=".package2"
+            android:exported="false" />
+        <activity
+            android:name=".transaction"
+            android:exported="false" />
+        <activity
+            android:name=".packages"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +108,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

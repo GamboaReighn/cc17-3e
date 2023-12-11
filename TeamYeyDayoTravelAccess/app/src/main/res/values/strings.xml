@@ -1,6 +1,31 @@
 <resources>
-    <string name="app_name">Dropdown menu</string>
-    <string name="select">Select Item</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">DayoTravelAccess</string>
+
+
+    <string-array name="types">
+        <item>Select Package</item>
+        <item>Baguio Staycation Package with City Tour</item>
+        <item>San Juan La Union Gateway</item>
+        <item>Alaminos Adventure Tour</item>
+        <item>Vigan Heritage Voyage</item>
+        <item>Bolinao Seaside Adventure Escape</item>
+        <item>Sagada Escape</item>
+        <item>Explore Sablan: Discover Natures Beauty</item>
+        <item>Explore Manila: City Highlights</item>
+        <item>Agoo Adventure: Discover La Unions Hidden Gem</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
 </resources>

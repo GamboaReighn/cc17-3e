@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CCFEDD4">
+
+  <TextView
+      android:id="@+id/textView43"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#955AA166"
+      android:text="Decibar Building,Lower Bonifacio, Baguio City"
+      android:textAlignment="center"
+      android:textSize="20dp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.47"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.556" />
+
+  <TextView
+      android:id="@+id/textView42"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Drop-Off Location"
+      android:textSize="20dp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.06"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="487dp"
+      android:layout_height="266dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      app:srcCompat="@drawable/baguio" />
+
+  <TextView
+      android:id="@+id/textView22"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Pick-up Location"
+      android:textSize="20dp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.06"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.401" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="339dp"
+      android:layout_height="106dp"
+      android:layout_marginBottom="80dp"
+      android:gravity="center"
+      android:text="Baguio Staycation Package with City Tour"
+      android:textColor="#FBFBFB"
+      android:textSize="30dp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintVertical_bias="0.13" />
+
+  <TextView
+      android:id="@+id/textView526"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#955AA166"
+      android:textSize="20dp"
+      android:textStyle="italic"
+      android:text="Decibar Building,Lower Bonifacio, Baguio City"
+      android:textAlignment="center"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.441" />
+
+  <TextView
+      android:id="@+id/textView12"
+      android:layout_width="350dp"
+      android:layout_height="73dp"
+      android:text="Indulge in the perfect blend of relaxation and exploration with our Baguio Staycation Package, offering a rejuvenating getaway amidst the scenic beauty of the City of Pines."
+      android:textAlignment="center"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.59"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.662" />
+
+  <TextView
+      android:id="@+id/textView25"
+      android:layout_width="374dp"
+      android:layout_height="23dp"
+      android:text="Inclusions:"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.216"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.734" />
+
+  <TextView
+      android:id="@+id/textView28"
+      android:layout_width="314dp"
+      android:layout_height="17dp"
+      android:text="• Daily Breakfast"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.103"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.792" />
+
+  <TextView
+      android:id="@+id/textView27"
+      android:layout_width="291dp"
+      android:layout_height="18dp"
+      android:text="• Guided city tour with transportation"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.087"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.766" />
+
+  <TextView
+      android:id="@+id/textView29"
+      android:layout_width="320dp"
+      android:layout_height="18dp"
+      android:text="• Complimentary Wi-Fi Access"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.109"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.817" />
+
+  <TextView
+      android:id="@+id/textView26"
+      android:layout_width="296dp"
+      android:layout_height="19dp"
+      android:text="• 2 nights accommodation at 456 Hotel"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.086"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.844" />
+
+  <TextView
+      android:id="@+id/textView442"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="₱ 2,999/ PAX"
+      android:textSize="25dp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.877"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.803" />
+
+
+  <Button
+      android:id="@+id/bookNow2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/primary_color"
+      android:text="Book Now"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.935" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

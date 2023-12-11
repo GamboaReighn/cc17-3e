@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CCFEDD4">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="487dp"
+        android:layout_height="266dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/vigan" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="106dp"
+        android:gravity="center"
+        android:text="Vigan Heritage Voyage"
+        android:textColor="#FBFBFB"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/bookNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary_color"
+        android:text="Book Now"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
+
+    <ScrollView
+        android:layout_width="357dp"
+        android:layout_height="361dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Description"
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Embark on a captivating 3-day journey through the cobblestone streets and historic charm of Vigan. Our Heritage Voyage Package invites you to explore UNESCO-listed sites, marvel at Spanish colonial architecture, and savor authentic local cuisine. From calesa rides along Calle Crisologo to cultural shows in Plaza Burgos, this package offers a seamless blend of history and leisure. Immerse yourself in the rich heritage of Vigan with guided tours, pottery-making experiences, and a farewell that leaves you with the timeless elegance of this UNESCO World Heritage City."
+
+
+                />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Package Highlights"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Cultural Immersion in UNESCO Splendor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Explore the UNESCO-listed heritage sites of Vigan, strolling through the cobblestone streets of Calle Crisologo adorned with well-preserved Spanish colonial houses. Immerse yourself in the city's rich history and architectural splendor." />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Guided Tours to Iconic Landmarks"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enjoy insightful guided tours to key landmarks such as the Vigan Cathedral, Plaza Salcedo, and the Crisologo Museum. Uncover the stories behind each historic site, gaining a deeper appreciation for Vigan's cultural significance." />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Calesa Ride under the Stars"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Experience the romance of Vigan with a calesa ride, a horse-drawn carriage that transports you through the beautifully illuminated streets of Calle Crisologo. Marvel at the historic charm as you embrace the city's enchanting atmosphere." />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Culinary Delights of Vigan"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delight your taste buds with authentic local cuisine at traditional eateries and renowned restaurants. Savor the flavors that define Vigan's gastronomic heritage, adding a delectable dimension to your cultural exploration." />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Pottery-Making Experience"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unleash your creativity with a hands-on pottery-making experience at the Pagburnayan Jar Factory. Witness the intricate artistry behind Vigan's traditional pottery and create your own masterpiece." />
+
+            <TextView
+                android:id="@+id/textView224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Zoo Adventure at Baluarte"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Explore the Baluarte Zoo for a unique animal encounter. A visit to this expansive zoo adds a touch of nature to your heritage voyage, creating a well-rounded experience in Vigan." />
+
+            <TextView
+                android:id="@+id/textView2241"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Farewell with a View"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2342"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bid farewell to Vigan with a panoramic view from the Bantay Bell Tower, offering a picturesque backdrop as you reflect on the memories created during your heritage voyage." />
+
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inclusions:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•2 nights' stay in a comfortable hotel within Vigan's heritage district" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Expert-guided tours to key heritage sites, including Calle Crisologo, Vigan Cathedral, Plaza Salcedo, Crisologo Museum, and other significant landmarks." />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• A romantic calesa (horse-drawn carriage) ride through the cobblestone streets of Calle Crisologo." />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•Admission to Baluarte Zoo for a unique animal encounter" />
+
+            <TextView
+                android:id="@+id/textView271"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Transportation to and from selected sites during guided tours" />
+
+            <TextView
+                android:id="@+id/textView281"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Knowledgeable local guides providing insights into the history and culture of Vigan" />
+
+            <TextView
+                android:id="@+id/textView291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•Convenient access to nearby amenities and attractions" />
+
+
+            <TextView
+                android:id="@+id/textView345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Note: Itineraries are subject to change based on availability and local conditions."
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daily Itinerary"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 1: Arrival and Immersive Welcome"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As you step into the time-honored city of Vigan, your journey begins with a warm welcome at your accommodation nestled in the heart of the heritage district. The morning unfolds with a leisurely exploration of the iconic Calle Crisologo, where cobblestone streets lead you through a visual feast of Spanish colonial houses frozen in time. In the afternoon, delve into the historical treasures at the Crisologo Museum, immersing yourself in the narratives of Vigan's past. As night falls, dine at a traditional eatery, savoring local flavors, and conclude the evening with a magical calesa ride, drifting through the softly illuminated streets that echo with tales of the past." />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 2: Cultural Riches and Gastronomic Bliss"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The second day invites you to a morning of spiritual and historical resonance at the Vigan Cathedral and Plaza Salcedo. Continue your exploration at the Crisologo Museum, where artifacts weave a vivid tapestry of Vigan's heritage. After a delightful lunch at Café Leona, the afternoon unfolds with a leisurely stroll through Plaza Burgos, a visit to the St. Paul Metropolitan Cathedral, and a vibrant cultural show that brings traditional music and dance to life. As evening descends, indulge in a captivating dinner at the Hidden Garden Restaurant, a culinary haven tucked away in Vigan's historic embrace." />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 3: Crafts and Farewell to Vigan"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Awaken to the artistry of Vigan on the third day, immersing yourself in a hands-on pottery-making experience at the Pagburnayan Jar Factory. The adventure continues with a visit to the Baluarte Zoo, where you encounter a menagerie of animals against a picturesque backdrop. For a fitting farewell, enjoy a delightful lunch at a local restaurant, savoring the last flavors of Vigan. Optionally, scale the heights of the Bantay Bell Tower for panoramic views of the city. As the sun sets, bid farewell to Vigan, carrying with you the unseen beauty of its heritage, as your enriching journey comes to a close." />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

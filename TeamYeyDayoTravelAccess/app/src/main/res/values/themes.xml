@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.TeamYeyDayoTravelAccess" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.DayoTravelAccess" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.TeamYeyDayoTravelAccess" parent="Base.Theme.TeamYeyDayoTravelAccess" />
+    <style name="Theme.DayoTravelAccess" parent="Base.Theme.DayoTravelAccess" />
 </resources>
